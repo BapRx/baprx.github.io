@@ -1,0 +1,121 @@
+---
+layout: default
+---
+
+<div class="container">
+  <header>
+    <div class="img-wrapper">
+      <img
+        src="{{ site.baseurl }}/assets/images/profile.webp"
+        class="img-circle"
+        alt="Profile picture"
+        height="100px"
+        width="100px"
+      />
+    </div>
+    <div class="name-wrapper">
+      <div id="fullname" class="title">{{ site.data.resume.name }}</div>
+      <div id="jobtitle" class="sub-title">
+        {{ site.data.resume.job_title }}
+      </div>
+    </div>
+    <div id="contact" class="contact">
+      {% for item in site.data.resume.contact.data %}
+      <div class="contact-item">
+        {% if item.link %}<a href="{{ item.link }}" target="_blank"
+          >{% endif %} <i class="fa {{ item.icon }}" aria-hidden="true"></i> {{
+          item.text }} {% if item.link %}</a
+        >{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </header>
+
+  <section id="education" class="section-first">
+    <div class="section-title">{{ site.data.resume.education.title }}</div>
+    {% for edu in site.data.resume.education.data %}
+    <div class="block">
+      <div class="block-title">{{ edu.university }}</div>
+      <div class="block-subtitle">{{ edu.duration }} | {{ edu.location }}</div>
+      <div class="block-content">{{ edu.major }}</div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section id="experience">
+    <div class="section-title">{{ site.data.resume.experience.title }}</div>
+    {% for exp in site.data.resume.experience.data %}
+    <div class="block">
+      <div class="block-title">{{ exp.title }}</div>
+      <div class="block-subtitle">
+        {{ exp.duration }} |
+        <a href="{{ exp.link }}" target="_blank">{{ exp.company }}</a> | {{
+        exp.location }}
+      </div>
+      <div class="block-content">
+        {% for item in exp.description %} {{ item }}<br />
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section id="projects">
+    <div class="section-title">{{ site.data.resume.projects.title }}</div>
+    {% for project in site.data.resume.projects.data %}
+    <div class="block">
+      <div class="block-title">{{ project.name }}</div>
+      <div class="block-subtitle">{{ project.contribution }}</div>
+      <div class="block-content">
+        {% for item in project.description %} {{ item }}<br />
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section id="skills">
+    <div class="section-title">{{ site.data.resume.skills.title }}</div>
+    <div class="section-flex">
+      {% for skill in site.data.resume.skills.data %}
+      <div class="block block-square">
+        <div class="block-title">{{ skill.title }}</div>
+        {% for item in skill.items %}
+        <div class="block-content">{{ item.name }}</div>
+        {% for i in (1..5) %} {% if i <= item.rate%}
+        <i class="fa fa-star" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+        {% endif %} {% endfor %} {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="section-title">{{ site.data.resume.certifications.title }}</div>
+    {% for cert in site.data.resume.certifications.data %}
+    <div class="block">
+      <div class="block-title">{{ cert.name }}</div>
+      <div class="block-subtitle">
+        {% if cert.link %}<a href="{{ cert.link }}" target="_blank"
+          >{{ site.data.resume.certifications.link_text }}</a
+        >
+        |{% endif %} {{ cert.date }}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section id="languages">
+    <div class="section-title">{{ site.data.resume.languages.title }}</div>
+    <div class="section-flex">
+      {% for language in site.data.resume.languages.data %}
+      <div class="block block-square">
+        <div class="block-title">{{ language.name }}</div>
+        <div class="block-content">{{ language.proficiency }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>

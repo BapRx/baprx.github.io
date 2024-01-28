@@ -1,0 +1,147 @@
+name: Baptiste Roux
+title: Resume - Baptiste ROUX
+job_title: Cloud DevOps Engineer
+
+contact:
+  data:
+    - icon: fa-envelope
+      text: rouxbaptiste@outlook.com
+      link: mailto://rouxbaptiste@outlook.com
+    - icon: fa-globe
+      text: baptiste.is-a.dev
+      link: https://baptiste.is-a.dev/
+    - icon: fa-github
+      text: BapRx
+      link: https://github.com/BapRx/
+    - icon: fa-linkedin-square
+      text: rouxbaptiste
+      link: https://www.linkedin.com/in/rouxbaptiste/
+
+education:
+  title: Eduction
+  data:
+    - university: CPE Lyon
+      duration: 2016 - 2019
+      location: Lyon
+      major: Master's in Computer Science and Communication Networks
+    - university: IUT 1 Grenoble
+      duration: 2014 - 2016
+      location: Grenoble
+      major: Associate's in Network and Telecommunications
+
+experience:
+  title: Work experiences
+  data:
+    - title: Cloud and DevOps Consultant (GCP)
+      duration: August 2021 - Present
+      company: Skale-5
+      location: Bordeaux / Remote
+      link: https://skale-5.com/
+      description:
+        - Managed cloud services (GCP & AWS) for various clients, specializing in GCP.
+        - 24/7 on-call for client infrastructure, implementing optimizations to enhance reliability and responsiveness.
+        - Assisted new clients in their move-to-cloud strategies, providing necessary resources for their products.
+        - One-year mission with Adeo client to restructure infrastructure for security, availability, and agility goals.
+        - "Diverse tasks including:"
+        - "&nbsp; &nbsp;• Deployment and updates of ArgoCD."
+        - "&nbsp; &nbsp;• Creation of a complete environment (landing zone, SQL, WEB instances, GKE cluster, monitoring)."
+        - "&nbsp; &nbsp;• Development of a script for automatic resource shutdown on demand (Cloud SQL, Instances / MIG & GKE)."
+        - "&nbsp; &nbsp;• Provisioning a GPU-enabled Kubernetes cluster with autoscaling based on external metrics (PubSub) for image processing."
+    - title: Network and Security Engineer
+      duration: September 2019 - August 2021
+      company: Tessi Technologies
+      location: Bordeaux
+      link: https://www.tessi.eu/
+      description:
+        - Incident management and operational maintenance of network equipment in the company's data centers.
+        - Backbone network equipment replacement in data centers (Cisco ACI).
+        - Introduction to automation and infrastructure as code concepts, deploying AWX solution and creating Ansible playbooks.
+        - Development of internal tools, including an OTP token reset portal for VPN access (Python front & API).
+    - title: Apprentice Network and Security Engineer
+      duration: September 2016 - September 2019
+      company: Fiducial Cloud
+      location: Lyon
+      link: https://www.fiducialcloud.fr/
+      description:
+        - Administration of the company websites' exposure using F5 BigIP's LTM module.
+        - Operational maintenance of Cisco telephony solution, from managing the phones to configuring the servers.
+        - Feasibility study and deployment of a WiFi network to provide wireless access to employees in meeting rooms.
+        - Two months internship in the United States involving the replacement of the main agency's firewall with a PaloAlto.
+        - Proof of Concept (POC) and deployment of the Global Protect VPN solution to allow remote access for every employees.
+
+projects:
+  title: Projects
+  data:
+    - name: Infrastructure Refactoring at Kazaplan (Adeo Group)
+      description:
+        - For nearly a year, I joined Kazaplan's infrastructure team to contribute to a refactoring project, leveraging my technical knowledge and sharing it with colleagues.
+        - • Migration to containers and then to Kubernetes for applications, APIs, and GPU worker (2D & 3D rendering).
+        - • Recreation of VPC networks on defined addressing plans, involving migration of VMs, Cloud SQL, Redis, and GKE cluster.
+        - • Automation of encrypted backups and SQL data anonymization.
+        - • Definition of CI/CD pipelines and creation of a CI generator.
+      contribution: Cloud Consultant
+
+skills:
+  title: Skills
+  data:
+    - title: IAC
+      items:
+        - name: Terraform
+          rate: 5
+        - name: Helm
+          rate: 5
+        - name: Ansible
+          rate: 5
+        - name: Pulumi
+          rate: 3
+    - title: GitOps
+      items:
+        - name: Git
+          rate: 5
+        - name: Gitlab CI
+          rate: 5
+        - name: Github Actions
+          rate: 4
+        - name: Argo CD
+          rate: 4
+    - title: Development
+      items:
+        - name: Docker
+          rate: 5
+        - name: Python
+          rate: 4
+        - name: Bash
+          rate: 4
+        - name: Rust
+          rate: 2
+    - title: Soft skills
+      items:
+        - name: Autonomy
+          rate: 5
+        - name: Curiosity
+          rate: 5
+        - name: Perseverance
+          rate: 5
+        - name: Team spirit
+          rate: 5
+
+certifications:
+  title: Certifications
+  link_text: Certificate
+  data:
+    - name: Certified Kubernetes Application Developer (CKAD)
+      link: https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/26b20cc0-8799-4e16-9933-9b65cc98e200-baptiste-roux-be195302-e3e0-4393-a6c3-a7572ae28d21-certificate.pdf
+      date: August 2023
+    - name: Terraform Associate - HashiCorp Certified
+      link: https://www.credly.com/badges/d1649786-579d-4426-ae3c-f6bc47c573f0/public_url
+      date: August 2022
+    - name: GCP Cloud Associate
+      date: January 2022
+
+languages:
+  title: Languages
+  data:
+    - name: English
+      proficiency: Proficient
+    - name: Français
+      proficiency: Native
