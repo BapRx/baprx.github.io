@@ -143,5 +143,5 @@ languages:
   data:
     - name: English
       proficiency: Proficient
-    - name: Français
+    - name: French
       proficiency: Native

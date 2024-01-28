@@ -46,7 +46,7 @@ experience:
         - "&nbsp; &nbsp;• Déploiement et mise à jour d'ArgoCD"
         - "&nbsp; &nbsp;• Création d'un environnement complet (landing zone, SQL, instances WEB, cluster GKE, monitoring)"
         - "&nbsp; &nbsp;• Développement d'un script d'extinction automatique des ressources sur demande (Cloud SQL, Instances / MIG & GKE)"
-        - "&nbsp; &nbsp;• Mise à disposition d'un cluster Kubernetes GPU avec autoscaling sur des métriques externe (PubSub) pour effectuer des traitements d'images"
+        - "&nbsp; &nbsp;• Mise à disposition d'un cluster Kubernetes GPU avec autoscaling sur des métriques externes (PubSub) pour effectuer des traitements d'images"
     - title: Ingénieur Réseau et Sécurité
       duration: Septembre 2019 - Août 2021
       company: Tessi Technologies
@@ -77,7 +77,7 @@ projects:
         - Pendant près d'un an j'ai intégré l'équipe infra de Kazaplan pour prendre part à un projet de refonte d'infrastructure. J'ai pu mettre à profit mes connaissances techniques et les partager à mes collègues lors de cette mission.
         - • Migration en conteneur puis sur Kubernetes des applications, API et worker GPU (génération de rendus 2D & 3D)
         - • Re-création des réseaux VPC sur des plans d'adressages définis, cela a impliqué la migration de toutes les VM, Cloud SQL, Redis et cluster GKE
-        - • Automatisation de sauvegardes chiffrés et d'anonymisation de données SQL
+        - • Automatisation de sauvegardes chiffrées et d'anonymisation de données SQL
         - • Définition des pipelines de CI/CD et création d'un générateur de CI
       contribution: Référent Cloud
 
