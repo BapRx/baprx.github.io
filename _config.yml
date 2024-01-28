@@ -19,6 +19,5 @@ social:
     - https://github.com/BapRx
 
 plugins:
-  - jekyll-github-metadata
   - jekyll-polyglot
   - jekyll-seo-tag
