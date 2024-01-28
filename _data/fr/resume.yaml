@@ -1,0 +1,147 @@
+name: Baptiste Roux
+title: CV - Baptiste ROUX
+job_title: Ingénieur Cloud DevOps
+
+contact:
+  data:
+    - icon: fa-envelope
+      text: rouxbaptiste@outlook.com
+      link: mailto://rouxbaptiste@outlook.com
+    - icon: fa-globe
+      text: baptiste.is-a.dev
+      link: https://baptiste.is-a.dev/
+    - icon: fa-github
+      text: BapRx
+      link: https://github.com/BapRx/
+    - icon: fa-linkedin-square
+      text: rouxbaptiste
+      link: https://www.linkedin.com/in/rouxbaptiste/
+
+education:
+  title: Formation
+  data:
+    - university: CPE Lyon
+      duration: 2016 - 2019
+      location: Lyon
+      major: Ingénieur Informatique et Réseaux de Communication
+    - university: IUT 1 Grenoble
+      duration: 2014 - 2016
+      location: Grenoble
+      major: DUT Réseau et Télécommunications
+
+experience:
+  title: Expériences professionnelles
+  data:
+    - title: Consultant Cloud et DevOps (GCP)
+      duration: Août 2021 - Présent
+      company: Skale-5
+      location: Bordeaux / Télétravail
+      link: https://skale-5.com/
+      description:
+        - Infogérence cloud (GCP & AWS) pour le compte de divers clients, je me suis spécialisé sur le cloud GCP et j'ai travaillé ponctuellement sur AWS.
+        - Astreinte 24/7 de l'infra de ces clients, mise en oeuvre d'optimisations pour améliorer la fiabilité et réactivité de leurs services.
+        - Accompagnement de nouveaux clients dans leurs stratégies move-to-cloud, mise à disposition des ressources nécessaires à leur produit.
+        - Mission d'un an auprès du client Adeo afin de restructurer l'infrastructure et d'atteindre leurs objectifs de sécurité, disponibilité et d'agilité.
+        - "Les travaux demandés par les clients étaient aussi variés en technologies qu'en complexité technique, voici quelques exemples de missions ponctuelles :"
+        - "&nbsp; &nbsp;• Déploiement et mise à jour d'ArgoCD"
+        - "&nbsp; &nbsp;• Création d'un environnement complet (landing zone, SQL, instances WEB, cluster GKE, monitoring)"
+        - "&nbsp; &nbsp;• Développement d'un script d'extinction automatique des ressources sur demande (Cloud SQL, Instances / MIG & GKE)"
+        - "&nbsp; &nbsp;• Mise à disposition d'un cluster Kubernetes GPU avec autoscaling sur des métriques externes (PubSub) pour effectuer des traitements d'images"
+    - title: Ingénieur Réseau et Sécurité
+      duration: Septembre 2019 - Août 2021
+      company: Tessi Technologies
+      location: Bordeaux
+      link: https://www.tessi.eu/
+      description:
+        - Gestion des incidents et maintien en condition opérationnelle des équipements réseaux en datacenters et du parc réseau dans les agences en France.
+        - Remplacement des équipements de cœur de réseau des datacenters (Cisco ACI).
+        - Introduction  à l'automatisation et au concept d'infrastructure as code, déploiement de la solution AWX et création de playbooks Ansible pour gérer des éléments d'infra (switch Cisco/Aruba, firewalls PaloAlto/Checkpoint).
+        - Développement d'outils internes dont un portail de reset de token OTP pour les accès VPN (Python front & API).
+    - title: Apprenti Ingénieur Réseau et Sécurité
+      duration: Septembre 2016 - Septembre 2019
+      company: Fiducial Cloud
+      location: Lyon
+      link: https://www.fiducialcloud.fr/
+      description:
+        - Administration de l'exposition des sites WEB du groupe (interne et externes) via le module LTM du BigIP F5 (Load-Balancer, Firewall L7).
+        - Maintien en condition opérationnelle et la solution de téléphonie Cisco de la gestion des postes à la configuration des serveurs.
+        - Étude de faisabilité et déploiement d'un réseau de bornes WiFi afin de fournir un accès sans fil aux collaborateurs dans les salles de réunion au niveau national.
+        - Stage de deux mois aux États-Unis où j'ai eu la tâche de remplacer le firewall de l'agence principale par un PaloAlto.
+        - POC et déploiement de la solution VPN Global Protect pour permettre un accès distant à chaque employé.
+
+projects:
+  title: Projets
+  data:
+    - name: Refonte de l'infrastructure de Kazaplan (Groupe Adeo)
+      description:
+        - Pendant près d'un an j'ai intégré l'équipe infra de Kazaplan pour prendre part à un projet de refonte d'infrastructure. J'ai pu mettre à profit mes connaissances techniques et les partager à mes collègues lors de cette mission.
+        - • Migration en conteneur puis sur Kubernetes des applications, API et worker GPU (génération de rendus 2D & 3D)
+        - • Re-création des réseaux VPC sur des plans d'adressages définis, cela a impliqué la migration de toutes les VM, Cloud SQL, Redis et cluster GKE
+        - • Automatisation de sauvegardes chiffrées et d'anonymisation de données SQL
+        - • Définition des pipelines de CI/CD et création d'un générateur de CI
+      contribution: Référent Cloud
+
+skills:
+  title: Compétences
+  data:
+    - title: IAC
+      items:
+        - name: Terraform
+          rate: 5
+        - name: Helm
+          rate: 5
+        - name: Ansible
+          rate: 5
+        - name: Pulumi
+          rate: 3
+    - title: GitOps
+      items:
+        - name: Git
+          rate: 5
+        - name: Gitlab CI
+          rate: 5
+        - name: Github Actions
+          rate: 4
+        - name: Argo CD
+          rate: 4
+    - title: Développement
+      items:
+        - name: Docker
+          rate: 5
+        - name: Python
+          rate: 4
+        - name: Bash
+          rate: 4
+        - name: Rust
+          rate: 2
+    - title: Soft skills
+      items:
+        - name: Autonomie
+          rate: 5
+        - name: Curiosité
+          rate: 5
+        - name: Persévérance
+          rate: 5
+        - name: Esprit d'équipe
+          rate: 5
+
+certifications:
+  title: Certifications
+  link_text: Certificat
+  data:
+    - name: Certified Kubernetes Application Developer (CKAD)
+      link: https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/26b20cc0-8799-4e16-9933-9b65cc98e200-baptiste-roux-be195302-e3e0-4393-a6c3-a7572ae28d21-certificate.pdf
+      date: Août 2023
+    - name: Terraform Associate - HashiCorp Certified
+      link: https://www.credly.com/badges/d1649786-579d-4426-ae3c-f6bc47c573f0/public_url
+      date: Août 2022
+    - name: GCP Cloud Associate
+      date: Janvier 2022
+
+languages:
+  title: Langues
+  data:
+    - name: Anglais
+      proficiency: Courant
+    - name: Français
+      proficiency: Natif

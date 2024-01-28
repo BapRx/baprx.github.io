@@ -1,0 +1,18 @@
+---
+---
+
+/*
+ * Theme of Crisp Minimal Resume
+ * Copyright (c) David Zhang, 2019
+ */
+
+$breakpoint: 60rem;
+
+$background-color: #fff;
+$main-color: #495057;
+$secondary-color: #adb5bd;
+
+@import "main";
+@import "header";
+@import "body";
+@import "footer";

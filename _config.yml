@@ -1,0 +1,23 @@
+title: CV - Baptiste Roux
+author: Baptiste Roux
+
+# jekyll-polyglot
+languages:
+  - en
+  - fr
+default_lang: fr
+exclude_from_localization: ["assets", "_sass"]
+parallel_localization: true
+sass:
+  sourcemap: never
+
+# jekyll-seo-tag
+social:
+  name: Baptiste Roux
+  links:
+    - https://www.linkedin.com/in/rouxbaptiste/
+    - https://github.com/BapRx
+
+plugins:
+  - jekyll-polyglot
+  - jekyll-seo-tag
