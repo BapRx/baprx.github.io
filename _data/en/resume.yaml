@@ -16,6 +16,9 @@ contact:
     - icon: fa-linkedin-square
       text: rouxbaptiste
       link: https://www.linkedin.com/in/rouxbaptiste/
+    - icon: fa-trophy
+      text: Credly
+      link: https://www.credly.com/users/baptiste-roux/
 
 education:
   title: Eduction
@@ -35,7 +38,7 @@ experience:
     - title: Cloud and DevOps Consultant (GCP)
       duration: August 2021 - Present
       company: Skale-5
-      location: Bordeaux / Remote
+      location: Bordeaux / Remote (in Lyon since 2022)
       link: https://skale-5.com/
       description:
         - Managed cloud services (GCP & AWS) for various clients, specializing in GCP.
@@ -47,6 +50,8 @@ experience:
         - "&nbsp; &nbsp;• Creation of a complete environment (landing zone, SQL, WEB instances, GKE cluster, monitoring)."
         - "&nbsp; &nbsp;• Development of a script for automatic resource shutdown on demand (Cloud SQL, Instances / MIG & GKE)."
         - "&nbsp; &nbsp;• Provisioning a GPU-enabled Kubernetes cluster with autoscaling based on external metrics (PubSub) for image processing."
+        - Developed a Gitlab CI/CD generator to standardize practices and facilitate pipeline implementation.
+        - "Finops: Cost analysis and resource optimization to reduce cloud infrastructure costs."
     - title: Network and Security Engineer
       duration: September 2019 - August 2021
       company: Tessi Technologies
@@ -93,7 +98,9 @@ skills:
         - name: Ansible
           rate: 5
         - name: Pulumi
-          rate: 3
+          rate: 2
+        - name: Crossplane
+          rate: 2
     - title: GitOps
       items:
         - name: Git
@@ -104,12 +111,16 @@ skills:
           rate: 4
         - name: Argo CD
           rate: 4
+        - name: GCP Cloud Build
+          rate: 3
     - title: Development
       items:
+        - name: Kubernetes
+          rate: 5
         - name: Docker
           rate: 5
         - name: Python
-          rate: 4
+          rate: 5
         - name: Bash
           rate: 4
         - name: Rust
@@ -124,18 +135,29 @@ skills:
           rate: 5
         - name: Team spirit
           rate: 5
-
+        - name: Versatility
+          rate: 5
 certifications:
   title: Certifications
-  link_text: Certificate
+  link_text: See the certificate
   data:
+    - name: Terraform Associate
+      link: https://www.credly.com/badges/cbbe897a-0352-4796-ab45-a0da66c7557f/public_url
+      date: December 2024
+    - name: Google Cloud Professional Cloud Architect
+      link: https://www.credly.com/badges/94f4c235-7653-42ee-a47b-7a53fe2c600a/public_url
+      date: December 2024
+    - name: Certified Kubernetes Administrator (CKA)
+      link: https://www.credly.com/badges/2f818eea-2d98-4a4a-973f-39f82e18b619/public_url
+      date: December 2024
     - name: Certified Kubernetes Application Developer (CKAD)
-      link: https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/26b20cc0-8799-4e16-9933-9b65cc98e200-baptiste-roux-be195302-e3e0-4393-a6c3-a7572ae28d21-certificate.pdf
+      link: https://www.credly.com/badges/5707e8c7-d80a-4a2e-87d5-946bbf457546/public_url
       date: August 2023
     - name: Terraform Associate - HashiCorp Certified
       link: https://www.credly.com/badges/d1649786-579d-4426-ae3c-f6bc47c573f0/public_url
       date: August 2022
     - name: GCP Cloud Associate
+      link: https://www.credly.com/badges/6707edaa-bb5e-4ced-aef7-d56833a8e061/public_url
       date: January 2022
 
 languages:
