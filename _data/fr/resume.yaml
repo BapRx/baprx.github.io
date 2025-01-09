@@ -47,7 +47,7 @@ experience:
         - Mission d'un an auprès du client Adeo afin de restructurer l'infrastructure et d'atteindre leurs objectifs de sécurité, disponibilité et d'agilité.
         - "Les travaux demandés par les clients étaient aussi variés en technologies qu'en complexité technique, voici quelques exemples de missions ponctuelles :"
         - "&nbsp; &nbsp;• Déploiement et mise à jour d'ArgoCD"
-        - "&nbsp; &nbsp;• Création de plusieurs environnement (landing zone, SQL, instances WEB, cluster GKE, monitoring)"
+        - "&nbsp; &nbsp;• Création de plusieurs environnements (landing zone, SQL, instances WEB, cluster GKE, monitoring)"
         - "&nbsp; &nbsp;• Développement d'un script d'extinction automatique des ressources sur demande (Cloud SQL, Instances / MIG & GKE)"
         - "&nbsp; &nbsp;• Mise à disposition d'un cluster Kubernetes GPU avec autoscaling sur des métriques externes (PubSub) pour effectuer des traitements d'images"
         - Développement d'un générateur de CI/CD Gitlab afin d'uniformiser les usages et de faciliter la mise en place de pipelines.

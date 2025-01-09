@@ -22,9 +22,9 @@ layout: default
     <div id="contact" class="contact">
       {% for item in site.data.resume.contact.data %}
       <div class="contact-item">
-        {% if item.link %}<a href="{{ item.link }}" target="_blank"
-          >{% endif %} <i class="fa {{ item.icon }}" aria-hidden="true"></i> {{ item.text }} {% if item.link %}</a
-        >{% endif %}
+        {% if item.link %}
+        <a href="{{ item.link }}" target="_blank">{% endif %}<i class="fa {{ item.icon }}" aria-hidden="true"></i> {{ item.text }} {% if item.link %}</a>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
@@ -94,7 +94,7 @@ layout: default
     <div class="section-title">{{ site.data.resume.certifications.title }}</div>
     {% for cert in site.data.resume.certifications.data %}
     <div class="block">
-      <div class="block-title row">{{ cert.name }}</div>
+      <div class="block-title">{{ cert.name }}</div>
       <div class="block-subtitle">
         {% if cert.link %}<a href="{{ cert.link }}" target="_blank"
           >{{ site.data.resume.certifications.link_text }}</a
