@@ -22,10 +22,9 @@ layout: default
     <div id="contact" class="contact">
       {% for item in site.data.resume.contact.data %}
       <div class="contact-item">
-        {% if item.link %}<a href="{{ item.link }}" target="_blank"
-          >{% endif %} <i class="fa {{ item.icon }}" aria-hidden="true"></i> {{
-          item.text }} {% if item.link %}</a
-        >{% endif %}
+        {% if item.link %}
+        <a href="{{ item.link }}" target="_blank">{% endif %}<i class="fa {{ item.icon }}" aria-hidden="true"></i> {{ item.text }} {% if item.link %}</a>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
@@ -49,8 +48,7 @@ layout: default
       <div class="block-title">{{ exp.title }}</div>
       <div class="block-subtitle">
         {{ exp.duration }} |
-        <a href="{{ exp.link }}" target="_blank">{{ exp.company }}</a> | {{
-        exp.location }}
+        <a href="{{ exp.link }}" target="_blank">{{ exp.company }}</a> | {{ exp.location }}
       </div>
       <div class="block-content">
         {% for item in exp.description %} {{ item }}<br />
@@ -82,7 +80,7 @@ layout: default
         <div class="block-title">{{ skill.title }}</div>
         {% for item in skill.items %}
         <div class="block-content">{{ item.name }}</div>
-        {% for i in (1..5) %} {% if i <= item.rate%}
+        {% for i in (1..5) %} {% if i <= item.rate %}
         <i class="fa fa-star" aria-hidden="true"></i>
         {% else %}
         <i class="fa fa-star-o" aria-hidden="true"></i>

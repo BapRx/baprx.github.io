@@ -47,11 +47,13 @@ experience:
         - Mission d'un an auprès du client Adeo afin de restructurer l'infrastructure et d'atteindre leurs objectifs de sécurité, disponibilité et d'agilité.
         - "Les travaux demandés par les clients étaient aussi variés en technologies qu'en complexité technique, voici quelques exemples de missions ponctuelles :"
         - "&nbsp; &nbsp;• Déploiement et mise à jour d'ArgoCD"
-        - "&nbsp; &nbsp;• Création d'un environnement complet (landing zone, SQL, instances WEB, cluster GKE, monitoring)"
+        - "&nbsp; &nbsp;• Création de plusieurs environnements (landing zone, SQL, instances WEB, cluster GKE, monitoring)"
         - "&nbsp; &nbsp;• Développement d'un script d'extinction automatique des ressources sur demande (Cloud SQL, Instances / MIG & GKE)"
         - "&nbsp; &nbsp;• Mise à disposition d'un cluster Kubernetes GPU avec autoscaling sur des métriques externes (PubSub) pour effectuer des traitements d'images"
         - Développement d'un générateur de CI/CD Gitlab afin d'uniformiser les usages et de faciliter la mise en place de pipelines.
         - "Finops: Analyse des coûts et optimisation des ressources pour réduire les coûts d'infrastructure cloud."
+        - Amélioration de la supervision et des alertes en fonction des besoins des clients (utilisation de Prometheus + exporters, Alertmanager et Grafana).
+        - Mise en place de bonnes pratiques de sécurité via la mise en place de network policies (Kubernetes), des scanners de vulnérabilité (ClamAV/Trivy) et en configurant les IAM en suivant le principe de least privilege.
     - title: Ingénieur Réseau et Sécurité
       duration: Septembre 2019 - Août 2021
       company: Tessi Technologies
@@ -141,6 +143,9 @@ certifications:
   title: Certifications
   link_text: Voir le certificat
   data:
+    - name: Certified Kubernetes Security Specialist (CKS)
+      link: 
+      date: January 2025
     - name: Terraform Associate
       link: https://www.credly.com/badges/cbbe897a-0352-4796-ab45-a0da66c7557f/public_url
       date: Décembre 2024
