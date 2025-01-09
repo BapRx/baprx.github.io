@@ -47,11 +47,13 @@ experience:
         - One-year mission with Adeo client to restructure infrastructure for security, availability, and agility goals.
         - "Diverse tasks including:"
         - "&nbsp; &nbsp;• Deployment and updates of ArgoCD."
-        - "&nbsp; &nbsp;• Creation of a complete environment (landing zone, SQL, WEB instances, GKE cluster, monitoring)."
+        - "&nbsp; &nbsp;• Creation of multiple environments (landing zone, SQL, WEB instances, GKE cluster, monitoring)."
         - "&nbsp; &nbsp;• Development of a script for automatic resource shutdown on demand (Cloud SQL, Instances / MIG & GKE)."
         - "&nbsp; &nbsp;• Provisioning a GPU-enabled Kubernetes cluster with autoscaling based on external metrics (PubSub) for image processing."
         - Developed a Gitlab CI/CD generator to standardize practices and facilitate pipeline implementation.
         - "Finops: Cost analysis and resource optimization to reduce cloud infrastructure costs."
+        - Monitoring and alerting improvements based on client needs (using Prometheus + exporters, Alertmanager and Grafana).
+        - Implemented security best practices through network policies (Kubernetes), vulnerability scanners (ClamAV/Trivy), and IAM configuration following the principle of least privilege.
     - title: Network and Security Engineer
       duration: September 2019 - August 2021
       company: Tessi Technologies
@@ -141,6 +143,9 @@ certifications:
   title: Certifications
   link_text: See the certificate
   data:
+    - name: Certified Kubernetes Security Specialist (CKS)
+      link: 
+      date: January 2025
     - name: Terraform Associate
       link: https://www.credly.com/badges/cbbe897a-0352-4796-ab45-a0da66c7557f/public_url
       date: December 2024
