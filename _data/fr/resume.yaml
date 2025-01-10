@@ -143,9 +143,12 @@ certifications:
   title: Certifications
   link_text: Voir le certificat
   data:
+    - name: Kubestronaut
+      link: https://www.credly.com/badges/326e3407-9327-4497-90b9-ac21f08d0a03/public_url
+      date: Janvier 2025
     - name: Certified Kubernetes Security Specialist (CKS)
-      link: 
-      date: January 2025
+      link: https://www.credly.com/badges/c54db5a4-ca67-43c3-a060-c7d6cb0b67b1/public_url
+      date: Janvier 2025
     - name: Terraform Associate
       link: https://www.credly.com/badges/cbbe897a-0352-4796-ab45-a0da66c7557f/public_url
       date: Décembre 2024
