@@ -6,7 +6,7 @@ contact:
   data:
     - icon: fa-envelope
       text: rouxbaptiste@outlook.com
-      link: mailto://rouxbaptiste@outlook.com
+      link: mailto:rouxbaptiste@outlook.com
     - icon: fa-globe
       text: baptiste.is-a.dev
       link: https://baptiste.is-a.dev/
