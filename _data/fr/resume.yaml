@@ -143,6 +143,9 @@ certifications:
   title: Certifications
   link_text: Voir le certificat
   data:
+    - name: Google Cloud Professional Cloud Security Engineer
+      link: https://www.credly.com/badges/5e0a9936-153b-469d-b0d1-9471b4954b70/public_url
+      date: Avril 2025
     - name: Google Cloud Professional Cloud DevOps Engineer
       link: https://www.credly.com/badges/abc64c42-14c1-4c77-80ae-f26e8d8d0402/public_url
       date: Février 2025
