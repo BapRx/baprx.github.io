@@ -1,6 +1,7 @@
+# yaml-language-server: $schema=../schema.yaml
 name: Baptiste Roux
 title: Resume - Baptiste ROUX
-job_title: Cloud DevOps Engineer
+job_title: Cloud DevOps / SRE Engineer
 
 contact:
   data:
@@ -143,6 +144,9 @@ certifications:
   title: Certifications
   link_text: See the certificate
   data:
+    - name: AWS Cloud Practitioner
+      link: https://www.credly.com/badges/21593814-75b3-48ce-a406-ce02297940a6/public_url
+      date: May 2025
     - name: Google Cloud Professional Cloud Security Engineer
       link: https://www.credly.com/badges/5e0a9936-153b-469d-b0d1-9471b4954b70/public_url
       date: April 2025

@@ -1,0 +1,102 @@
+BAPTISTE ROUX
+Cloud DevOps / SRE Engineer
+Location: Lyon, France & Remote
+
+CONTACT
+Email: rouxbaptiste@outlook.com
+Website: baptiste.is-a.dev
+GitHub: github.com/BapRx
+LinkedIn: linkedin.com/in/rouxbaptiste
+Certifications: credly.com/users/baptiste-roux
+
+SUMMARY
+Cloud DevOps Engineer with extensive experience in GCP, AWS, and Kubernetes. Specialized in cloud infrastructure, DevOps practices, and security implementation. Strong background in automation, infrastructure as code, and cloud-native technologies.
+
+EXPERIENCE
+
+Cloud and DevOps Consultant (GCP) | Skale-5 | August 2021 - Present
+Location: Bordeaux / Remote (Lyon since 2022)
+- Managed GCP and AWS cloud services for diverse client portfolio
+- Provided 24/7 on-call support and infrastructure optimization
+- Led cloud migration strategies and infrastructure restructuring
+- Implemented ArgoCD deployments and updates
+- Created multi-environment infrastructure including landing zones, SQL, web instances, and GKE clusters
+- Developed automated resource management scripts
+- Provisioned GPU-enabled Kubernetes clusters with autoscaling
+- Created standardized GitLab CI/CD generator
+- Conducted FinOps analysis and cost optimization
+- Enhanced monitoring systems using Prometheus, Alertmanager, and Grafana
+- Implemented security best practices for network policies and IAM
+
+Network and Security Engineer | Tessi Technologies | September 2019 - August 2021
+Location: Bordeaux
+- Managed network equipment in data centers
+- Led Cisco ACI backbone network equipment replacement
+- Implemented automation using AWX and Ansible
+- Developed internal tools including OTP token reset portal
+
+Apprentice Network and Security Engineer | Fiducial Cloud | September 2016 - September 2019
+Location: Lyon
+- Administered F5 BigIP LTM for website exposure
+- Managed Cisco telephony infrastructure
+- Deployed company-wide WiFi network
+- Conducted US internship for PaloAlto firewall replacement
+- Implemented Global Protect VPN solution
+
+NOTABLE PROJECT
+
+Infrastructure Refactoring at Kazaplan (Adeo Group)
+- Migrated applications to Kubernetes including GPU-based rendering
+- Redesigned VPC networks and migration of cloud services
+- Implemented automated encrypted backups and data anonymization
+- Established CI/CD pipelines and created CI generator
+
+SKILLS
+
+Infrastructure as Code:
+- Advanced: Terraform, Helm, Ansible, Kustomize, Packer
+- Intermediate: Pulumi, Crossplane
+
+GitOps & CI/CD:
+- Advanced: Git, GitLab CI, GitHub Actions, Argo CD
+- Proficient: GCP Cloud Build
+
+Development & Container Technologies:
+- Advanced: Kubernetes, Helm, Docker, Python, Bash
+- Intermediate: Rust, Golang, Javascript / Typescript
+
+Monitoring & Alerting
+- Advanced: Prometheus, Thanos, Grafana
+- Intermediate: OpenTelemetry, Loki
+
+CERTIFICATIONS
+
+2025:
+- AWS Cloud Practitioner
+- Google Cloud Professional Cloud Security Engineer
+- Google Cloud Professional Cloud DevOps Engineer
+- Google Cloud Associate
+- Kubestronaut
+- Certified Kubernetes Security Specialist (CKS)
+
+2024:
+- Terraform Associate
+- Google Cloud Professional Cloud Architect
+- Certified Kubernetes Administrator (CKA)
+
+2023:
+- Certified Kubernetes Application Developer (CKAD)
+
+EDUCATION
+
+Master's in Computer Science and Communication Networks
+CPE Lyon | 2016 - 2019
+Location: Lyon
+
+Associate's in Network and Telecommunications
+IUT 1 Grenoble | 2014 - 2016
+Location: Grenoble
+
+LANGUAGES
+- French: Native
+- English: Proficient
