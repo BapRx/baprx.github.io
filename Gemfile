@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "base64", "~> 0.2.0"
+gem "base64", "~> 0.3.0"
 gem "csv", "~> 3.3"
 gem "guard-livereload", "~> 2.5"
 gem "guard", "~> 2.18"
